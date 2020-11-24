@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="ros_topic_test" type="ros_pub_test" name="ros_pub_test1"/>
+    <node pkg="ros_topic_test" type="ros_sub_test" name="ros_sub_test1" output="screen"/>
+</launch>
